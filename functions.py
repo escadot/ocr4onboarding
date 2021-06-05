@@ -10,7 +10,7 @@ import pytesseract as tess
 from pytesseract import Output
 from matplotlib import pyplot as plt
 
-tess.pytesseract.tesseract_cmd=r'D:\Users\kuroy\AppData\Local\Programs\Tesseract-OCR\tesseract'
+tess.pytesseract.tesseract_cmd=r'%LocalAppData%\Programs\Tesseract-OCR\tesseract'
 
 def set_input():
     from tkinter import Tk as tk
